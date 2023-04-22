@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+    padding: 80px
+}
+
+
+.top{
+    margin: 90px 0px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 50px;
+}
+
+button{
+    width: 200px;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+
+#card{
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: 250px;
+    border:2px solid white;
+}
+
+option{
+    background-color: black;
+    color: white;
+}
+
+
+.card{
+    border: 1px solid white;
+    display:flex;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 20px;
+
+
+}
+
+h2{
+    font-size: 40px;
+}
+.cards{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.add{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+}
+
+input{
+    font-size: 25px;
+    background-color: transparent;
+    padding: 20px;
+    border: 1px solid white;
+    width: 500px;
+    color: white;
+    border-radius: 10px;
+}
+label{
+    font-size: 30px;
+}
